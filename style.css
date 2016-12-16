@@ -1,0 +1,23 @@
+h1, .poste, .description{
+	text-align: center;
+	color : #FFF;
+}
+
+.description{
+	font-weight : bold ;
+	font-style : italic;
+	font-size : 18px;
+}
+
+.tete{
+	background-color: #9055A2;
+}
+
+.contact{
+	display: flex;
+	height: 20%;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+
