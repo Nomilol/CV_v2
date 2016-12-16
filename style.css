@@ -3,23 +3,50 @@ h1, .poste, .description{
 	color : #FFF;
 }
 
+h1{
+	font-size : 40px;
+	padding-top: 1em;
+}
+
+.colorBody{
+	background-color: #a7a7a2;
+}
+
 .description{
 	font-weight : bold ;
 	font-style : italic;
-	font-size : 18px;
+	font-size : 25px;
 }
 
 .tete{
-	background-color: #9055A2;
+	background-color: black;
+	height: 18em;
+}
+
+.intro{
+	width : 45%;
+	margin : auto;
+	padding-top : 6em;
+	font-style : italic;
+	font-weight: bold;
+	font-size: 20px;	
 }
 
 .contact{
 	display: flex;
 	height: 20%;
 	justify-content: space-between;
-	padding-top: 8em;
+	padding-top: 6.5em;
 	margin-left : 20%;
 	margin-right : 20%;
+}
+
+.contact a{
+	color : black;
+}
+
+.espace{
+	height : 2em;
 }
 
 .ligne{
@@ -52,3 +79,24 @@ h1, .poste, .description{
 	font-weight: bold;
 	font-size: 30px;
 }
+
+h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+.projets li{
+	list-style-type: none;
+}
+
+.projectTitle{
+	font-weight: bold;
+	text-align: center;
+	font-size : 20px;
+}
+
+.projets p{
+	text-align : center;
+	font-size: 15px;
+}
+
