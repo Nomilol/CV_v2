@@ -29,7 +29,7 @@ h1{
 	padding-top : 6em;
 	font-style : italic;
 	font-weight: bold;
-	font-size: 20px;	
+	font-size: 20px;
 }
 
 .contact{
@@ -108,4 +108,16 @@ h3{
 .formationSimplon p{
 	text-align : center;
 	font-size : 18px;
+}
+
+.loisirs ul  {
+	list-style-type: none;
+}
+
+.loisirs h3{
+	text-align : center;
+}
+.loisirs {
+	display : flex;
+	justify-content : space-around;
 }
