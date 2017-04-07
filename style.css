@@ -33,17 +33,22 @@ h1{
 }
 
 .contact{
-	display: flex;
+	
 	height: 20%;
-	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
 	padding-top: 6.5em;
 	margin-left : 20%;
 	margin-right : 20%;
+	font-size : 20px;
+	
 }
 
 .contact a{
 	color : black;
+	line-height: 1.5em;
 }
+
 
 .espace{
 	height : 2em;
@@ -57,16 +62,17 @@ h1{
 	margin-right : 20%;
 }
 
-.competences{
+/*.competences{
 	display : flex;
 	justify-content: space-around;
 	padding-top: 10em;
-}
+}*/
 
 .competencesTechniques li{
 	font-size : 22px;
 	list-style-type: none;
 	line-height: 1.5em;
+	margin-left : 20%;
 }
 
 .competencesGenerales li{
@@ -78,7 +84,10 @@ h1{
 .competences .cT, .cG{
 	font-weight: bold;
 	font-size: 30px;
+	text-align : center;
+	
 }
+
 
 h3{
 	text-align: center;
@@ -97,7 +106,7 @@ h3{
 
 .projets p{
 	text-align : center;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .formationSimplon h4{
@@ -105,9 +114,9 @@ h3{
 	font-size : 22px;
 }
 
-.formationSimplon p{
+.formationSimplon{
 	text-align : center;
-	font-size : 18px;
+	
 }
 
 .loisirs ul  {
@@ -120,4 +129,28 @@ h3{
 .loisirs {
 	display : flex;
 	justify-content : space-around;
+	font-size: 20px;
+}
+
+.skills{
+	display : flex;
+	flex-direction : row;
+	justify-content: space-around;
+	margin-top : 5%;
+}
+
+
+
+.skills ul{
+	list-style-type: none;
+	font-size : 22px;
+}
+
+.skills span{
+	font-weight: bold;
+}
+
+.date{
+	font-weight: bold;
+	font-size: 22px;
 }
